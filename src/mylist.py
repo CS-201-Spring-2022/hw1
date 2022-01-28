@@ -66,7 +66,7 @@ class MyList:
             f'Setting invalid list index {i} in list of size {len(self)}'
         pass
 
-    def __iter__(self) -> MyListIterator:
+    def __iter__(self) -> 'MyList':
         '''Iterator function to return an iterator (self) that allows iteration over
         this list.
 
