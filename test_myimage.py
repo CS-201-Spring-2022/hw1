@@ -1,4 +1,8 @@
-from image_operations import *
+import sys
+
+sys.path.append("./src")
+
+from src.image_operations import *
 from PIL import Image
 from urllib.request import urlopen
 
